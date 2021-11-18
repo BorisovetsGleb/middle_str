@@ -2,6 +2,8 @@
 
 unsigned char itc_changeCase(unsigned char c)
 {
+    if(c == NULL)
+        return c;
     if(c >= 97 && c <= 122)
         return itc_toUpper(c);
     else

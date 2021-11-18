@@ -2,6 +2,8 @@
 
 string itc_DecToBin(string str)
 {
+    if(str == "")
+        return "";
     long long i = 0;
     string CurrentNumber = "", out = "";
     while(str[i] != '\0')

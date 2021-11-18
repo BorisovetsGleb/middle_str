@@ -2,6 +2,8 @@
 
 bool itc_compare(string a, string b)
 {
+    if(a == "" || b == "")
+    return 0;
     long long len1, len2;
     len1 = itc_len(a);
     len2 = itc_len(b);

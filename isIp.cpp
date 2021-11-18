@@ -2,6 +2,8 @@
 
 bool itc_isIp(string str)
 {
+    if(str == "")
+        return "";
     long long len = itc_len(str);
     int colOfPoints = 0, colOfPoints2 = 0, odin, dva, tri, chet;
     int i = 0;

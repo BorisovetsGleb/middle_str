@@ -2,6 +2,8 @@
 
 string itc_Cezar(string str, int k)
 {
+    if(str == "")
+        return "";
     string re = "";
     long long i = 0, len = itc_len(str);
     char charr = 0;

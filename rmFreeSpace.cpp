@@ -2,6 +2,8 @@
 
 string itc_rmFreeSpace(string str)
 {
+    if(str == "")
+        return "";
     string out = "";
     long long i = 0;
     while(i < itc_len(str))

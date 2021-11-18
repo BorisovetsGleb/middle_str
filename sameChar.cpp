@@ -2,6 +2,8 @@
 
 char itc_sameChar(string a)
 {
+    if(a == "")
+        return NULL;
     //string allCharsOnlyLitera = "";
     long long i = 0, s = 0;
     int colOfFind = 0;

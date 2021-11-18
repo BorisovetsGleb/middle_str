@@ -2,6 +2,8 @@
 
 string itc_maxCharWord(string str)
 {
+    if(str == "")
+        return "error";
     long long len = itc_len(str);
     long long i = 0;
     int colSlov = 0;
