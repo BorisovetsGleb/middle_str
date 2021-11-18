@@ -2,7 +2,7 @@
 
 string itc_maxCharWord(string str)
 {
-    if(str == "")
+    if(str.empty())
         return "error";
     long long len = itc_len(str);
     long long i = 0;

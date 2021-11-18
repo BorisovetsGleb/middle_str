@@ -2,7 +2,7 @@
 
 bool itc_isFirstInSecond(string str1, string str2)
 {
-    if(str1 == "" || str2 == "")
+    if(str1.empty()|| str2.empty())
         return 0;
     if(itc_len(str1) > itc_len(str2))
         return 0;

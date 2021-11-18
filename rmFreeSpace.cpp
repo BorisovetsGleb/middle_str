@@ -2,7 +2,7 @@
 
 string itc_rmFreeSpace(string str)
 {
-    if(str == "")
+    if(str.empty())
         return "";
     string out = "";
     long long i = 0;

@@ -2,7 +2,7 @@
 
 int itc_countWords(string str)
 {
-    if(str == "")
+    if(str.empty())
         return 0;
     long long len = itc_len(str);
     long long i = 0;

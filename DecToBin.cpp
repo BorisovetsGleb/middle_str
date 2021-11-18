@@ -2,7 +2,7 @@
 
 string itc_DecToBin(string str)
 {
-    if(str == "")
+    if(str.empty())
         return "";
     long long i = 0;
     string CurrentNumber = "", out = "";
@@ -29,7 +29,7 @@ string itc_DecToBin(string str)
     {
         out = out + to_string(Convert_Str_To_Bin(CurrentNumber));
         CurrentNumber = "";
-        out = out + str[i];
+        //out = out + str[i];
     }
     return /*to_string(Convert_Str_To_Bin(CurrentNumber))*/out;
 }

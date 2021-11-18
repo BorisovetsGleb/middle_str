@@ -2,7 +2,7 @@
 
 long long itc_covert_num(long long num, int i)
 {
-    if(num < 0)
+    if(num <= 0)
         return -1;
     if(i > 10 || i < 2)
         return -1;

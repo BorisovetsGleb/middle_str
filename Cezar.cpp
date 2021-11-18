@@ -2,7 +2,7 @@
 
 string itc_Cezar(string str, int k)
 {
-    if(str == "")
+    if(str.empty())
         return "";
     string re = "";
     long long i = 0, len = itc_len(str);

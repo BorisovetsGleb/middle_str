@@ -2,7 +2,7 @@
 
 long long itc_len(string str)
 {
-    if(str == "")
+    if(str.empty())
         return 0;
     long long i = 0;
     //string stop = "\0";
