@@ -2,8 +2,10 @@
 
 bool itc_isFirstInSecond(string str1, string str2)
 {
-    if(str1.empty()|| str2.empty())
+    if(str2.empty())
         return 0;
+    if(str1.empty())
+        return 1;
     if(itc_len(str1) > itc_len(str2))
         return 0;
     long long len1 = itc_len(str1), len2 = itc_len(str2), i = 0, s = 0;
